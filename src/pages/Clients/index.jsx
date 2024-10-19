@@ -52,7 +52,7 @@ export default function Clients() {
               <Client
                 key={client.clientid}
                 checkMore={() => setIsPopupVisible(prev => !prev) && handleCheckMore(client.clientid) }
-                src="client-1.png" 
+                src='client-1.png' 
                 name={client.name}
                 phone={client.phone}
                 visits={client.visits}

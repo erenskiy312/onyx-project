@@ -10,7 +10,7 @@ export default function Client({ src, name, phone, visits, payed, averageCheck, 
 					<div className="client__cell-wrapper">
 						<img 
 							alt={ name }
-							src={ `../../assets/images/${src}` } 
+							src={ `src/assets/images/${src}` } 
 						/>
 					</div>
 					<h6 className="client__cell-title">
